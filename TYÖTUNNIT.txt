@@ -8,3 +8,4 @@ YHTEENSÄ == 16h
 Viimeistely / kommentointi
 päivä 1 == 50min
 päivä 2 == 25min
+YHTEENSÄ == 1h15min
