@@ -1,0 +1,242 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: "Roboto", Open Sans, sans-serif;
+	width:100%;
+  font-size: 100%;
+}
+
+a {
+ cursor:pointer;
+}
+
+.header {
+	padding-left: 20px;
+	color: #000;
+	font-size: 20px;
+}
+
+.header h1 {
+	margin: 0;
+	display: inline-block;
+	color: #006699;
+	font-size: 50px;
+}
+
+.main {
+	padding: 13px 0;
+}
+
+.bar {
+	background-color: #f2f2f2;
+	border: 1px solid #d9d9d9;
+	margin: 0px 0px 10px 20px;
+	width:97%;
+	height:75px;
+}
+
+.otsikko2 {
+	padding-top:5px;
+}
+
+.bar a {
+	text-decoration:none;
+	color:#000;
+}
+
+.store img {
+	margin-bottom:-15px;
+	margin-right:15px;
+}
+
+.main h1 {
+	font-size: 25px;
+	margin: 0px 0px 0px 0px;
+	padding: 20px;
+	width: 500px;
+}
+
+.leffa {
+	width: 280px;
+	height: 210px;
+	border: 1px solid #d9d9d9;
+	overflow: hidden;
+	display: inline-block;
+	padding: 20px 250px 80px 20px;
+	margin: 5px 5px 10px 25px;
+	background-color: #f2f2f2;
+	float:left;
+}
+
+.linkitys:hover {
+	cursor: pointer;
+}
+
+.linkitys a {
+	text-decoration:none;
+	color:#000;
+}
+
+.leffassa {
+	width: 400px;
+	height: 805px;
+	border: 1px solid #d9d9d9;
+	overflow: hidden;
+	display: inline-block;
+	padding: 20px 250px 80px 20px;
+	margin: 5px 5px 80px 25px;
+	background-color: #f2f2f2;
+	float:left;
+}
+
+.leffa img {
+	max-width: 100%;
+	margin-left:330px;
+	margin-top:-28px;
+	position:absolute;
+}
+
+.metertxt {
+	font-size:14px;
+}
+
+.leffassa img {
+	max-width: 100%;
+	margin-left:450px;
+	margin-top:-87px;
+	margin-bottom:0px;
+	position:absolute;
+}
+
+.title {
+	margin:0px 0px 0px 0px;
+	width: 250px;
+}
+
+.date {
+	margin:0px 0px 0px 0px;
+	font-size:22px;
+}
+
+.developer {
+	margin:0px 0px 0px 0px;
+	font-size:14px;
+	width: 260px;
+}
+
+.rating {
+	text-align: left;
+	-webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+	margin: 0px 0px 0px 0px;
+}
+
+.iso {
+	width:170px;
+	height:23px;
+}
+
+.pieni {
+	width:65px;
+	height:10px;
+}
+
+meter::-webkit-meter-bar {
+    background: #FFF;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2) inset;
+    border-radius: 3px;
+}
+meter::-webkit-meter-optimum-value {
+    background: #86CC00 !important;
+		border-radius: 3px;
+}
+meter::-webkit-meter-suboptimum-value {
+    background: #FFDB1A !important;
+		border-radius: 3px;
+}
+
+meter:-moz-meter-optimum::-moz-meter-bar {
+    background:#86CC00 !important;
+		border-radius: 3px;
+}
+meter:-moz-meter-sub-optimum::-moz-meter-bar {
+    background: #FFDB1A !important;
+		border-radius: 3px;
+}
+
+.formi {
+		margin-top:10px;
+}
+
+.kommenttidiv {
+		margin-bottom:-500px;
+}
+
+.kmnt {
+		font-size:14px;
+}
+
+.kommenttitulostus {
+		margin-top:40px;
+		height:300px;
+		width:623px;
+		padding-left:5px;
+		padding-right:5px;
+		overflow: auto;
+	 	font-size: 13px;
+		background:#e0e0eb;
+}
+
+.kommenttitulostus b {
+		font-size:16px;
+		font-weight:510;
+}
+
+.kuvaus {
+		font-size:13px;
+		height:70px;
+}
+
+textarea {
+		width:627px;
+		height:115px;
+}
+
+.kommenttitulostus hr {
+		width:620px;
+		margin-bottom:-10px;
+		margin-left:0px;
+}
+
+input[type=submit] {
+	background: #d1d1d1;
+  background-image: -webkit-linear-gradient(top, #d1d1d1, #696969);
+  background-image: -moz-linear-gradient(top, #d1d1d1, #696969);
+  background-image: -ms-linear-gradient(top, #d1d1d1, #696969);
+  background-image: -o-linear-gradient(top, #d1d1d1, #696969);
+  background-image: linear-gradient(to bottom, #d1d1d1, #696969);
+  -webkit-border-radius: 13;
+  -moz-border-radius: 13;
+  border-radius: 13px;
+  text-shadow: 1px 1px 1px #2b2b2b;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 17px;
+  padding: 8px 8px 8px 8px;
+  text-decoration: none;
+	outline:none;
+	margin-top:7px;
+}
+input[type=submit]:hover {
+	background: #a2a2bd;
+  background-image: -webkit-linear-gradient(top, #a2a2bd, #487399);
+  background-image: -moz-linear-gradient(top, #a2a2bd, #487399);
+  background-image: -ms-linear-gradient(top, #a2a2bd, #487399);
+  background-image: -o-linear-gradient(top, #a2a2bd, #487399);
+  background-image: linear-gradient(to bottom, #a2a2bd, #487399);
+  text-decoration: none;
+}
+input[type="submit"]::-moz-focus-inner {
+   border: 0;
+}

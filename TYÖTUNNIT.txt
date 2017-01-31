@@ -1,0 +1,10 @@
+﻿Koodaus
+päivä 1 == 6h30min
+päivä 2 == 1h30min
+päivä 3 == 2h
+päivä 4 == 6h
+YHTEENSÄ == 16h
+
+Viimeistely / kommentointi
+päivä 1 == 50min
+päivä 2 == 25min

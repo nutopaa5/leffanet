@@ -1,0 +1,13 @@
+Käytetyt kielet:
+--------------------
+Angular, PHP, HTML5, CSS, JavaScript, JQuery, SQLite (PDO)
+Testaus: Chrome / Firefox
+
+Työtunnit:
+-------------
+Työtunnit.txt tiedostossa
+
+Tietokanta info:
+----------------------
+Tietokannan voi poistaa db-kansiosta.
+Tiedosto luodaan uudelleen sivun päivityksen yhteydessä (kommentit ja rating - php tiedostot)
